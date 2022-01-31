@@ -127,7 +127,6 @@ class Main extends Sprite
                         }
                         if (!FileSystem.exists(Main.getDataPath() + "mods")) {
                                 Application.current.window.alert("Try copying assets/mods from apk to " + Application.current.meta.get("packageName") + " In your internal storage" + "\n" + "Press Ok To Close The App", "Instructions");
-                                System.exit(0);//Will close the game
                         }
                 }
                 #end
